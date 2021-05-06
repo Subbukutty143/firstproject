@@ -28,6 +28,8 @@ public class Task4 extends BaseClass {
           selectByIndex(t.getSelect2(), 3);
           btnClick(t.getClick());
           btnClick(t.getClick1());
+          System.out.println("subbu");
+          System.out.println("subbu");
 	}
 	@Test(priority=2)
 	public void tc1() throws IOException, InterruptedException {
